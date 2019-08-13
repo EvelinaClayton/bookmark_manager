@@ -1,31 +1,30 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Kriss/Desktop/Ruby/projects/bookmark_manager/spec/bookmark_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
+      "/Users/student/Projects/bookmark_manager/spec/bookmark_spec.rb": [
+        null,
+        null,
         1,
         1,
         1,
         null,
-        null,
-        null
-      ],
-      "/Users/Kriss/Desktop/Ruby/projects/bookmark_manager/spec/feature/bookmark_view_spec.rb": [
-        1,
-        1,
-        1,
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/Kriss/Desktop/Ruby/projects/bookmark_manager/spec/feature/index_spec.rb": [
+      "/Users/student/Projects/bookmark_manager/spec/feature/bookmark_view_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/student/Projects/bookmark_manager/spec/feature/index_spec.rb": [
         null,
         null,
         1,
@@ -36,6 +35,6 @@
         null
       ]
     },
-    "timestamp": 1565621803
+    "timestamp": 1565703768
   }
 }
