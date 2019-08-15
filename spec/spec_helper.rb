@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+ENV['ENVIRONMENT'] = 'test' 
+
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
 require 'capybara'
@@ -8,8 +10,15 @@ require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
 require 'pg'
+require_relative './setup_test_database'
 
 Capybara.app = BookmarkManager
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                  SimpleCov::Formatter::Console
